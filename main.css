@@ -1,0 +1,25 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  line-height: 1.62rem;
+}
+
+.story {
+  width: calc(100% - 40px);
+  margin: 20px auto;
+}
+
+.story_headline {
+  font-size: 2em;
+  line-height: 1.1em;
+}
+
+.story_para {
+  margin-top: 20px;
+}
+
+@media (min-width: 480px) {
+  .story {
+    max-width: 35em;
+  }
+}

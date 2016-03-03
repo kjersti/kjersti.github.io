@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Musings</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="reset.css" rel="stylesheet" media="all">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,700' rel='stylesheet' type='text/css'>
+  <link href="main.css" rel="stylesheet" media="all">
+</head>
+<body>
+<article class="story">
+  <h1 class="story_headline">What's that about style guides?</h1>
+<p class="story_para">
+  I have been building stuff for the web for more than ten years, but being mostly a backend developer, there are still loads to learn when getting to grips with all the stuff happening frontend. My current mission is to learn all I can about current practices in CSS, HTML and javascript technologies. And, because I have a great need for structure, and I like analysis, and am currently working on an application built on a death march, I am very interested in learning more about how to keep your CSS from turning into an overgrown jungle. So, the topic of the day: CSS frameworks/architectures.
+</p>
+<p class="story_para">
+
+  Should contain
+  - guidelines for HTML
+  - guidelines for CSS
+  - guidelines for JS
+  - guidelines for how to combine the above
+
+  - style elements
+  -- color
+  -- font
+  -- layout
+  -- (shared) components
+  --- Messages / showing system state
+  --- menus
+  --- placement of buttons
+  --- breadcrumbs
+  --- navigational patterns
+
+  Why is a style guide useful?
+  - To get up and runing quickly on a project
+  - To preserve consistency even while getting contributions from multiple, distributed developers.
+  - To maintain a consistent user experience
+  - To maintain consistency in the code
+
+  CSS guides
+  -- BEM?
+  -- SMACSS?
+  -- OOCSS?
+
+  How to name your classes. What kind of semantics do you use? Not derived from content, but from layout and function. (?)
+
+  Use a different naming scheme JS hooks and CSS hooks?
+
+  Having a class with the name "row", that will display its content in a row, makes sense right? Not bound by content, but by layout/function.
+
+  Can be modified with row--wrapped (?) Or is this rather a "table"? Or a "grid"
+  Hah, my thought exactly: https://github.com/suitcss/components-grid/blob/master/lib/grid.css
+</p>
+
+<p class="story_quote">
+"anyone can rearrange pre-built “lego blocks”; it turns out that no one can perform CSS-alchemy."
+</p>
+--- Sources
+: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
+
+</article>
+
+</body>
+</html>
