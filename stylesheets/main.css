@@ -9,13 +9,19 @@ body {
   margin: 20px auto;
 }
 
-.story_headline {
+.story__headline {
   font-size: 2em;
   line-height: 1.1em;
 }
 
-.story_para {
+.story__para {
   margin-top: 20px;
+}
+
+.story__quote {
+  font-style: italic;
+  font-weight: lighter;
+  padding: 0 20px;
 }
 
 @media (min-width: 480px) {
