@@ -1,0 +1,40 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  line-height: 1.62rem;  
+  max-width: 35rem;
+  width: calc(100% - 40px);
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  list-style: 1.62rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+ul {
+  padding-left: 2.5rem;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: lighter;  
+  padding: 0 20px;
+}
+
+@media (min-width: 480px) {
+  p {
+    max-width: 35em;
+  }
+}
